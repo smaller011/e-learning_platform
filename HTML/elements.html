@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./elements.css">
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center vh-100 container"
+    >
+      <div class="card p-4">
+        <h1>HTML Elements</h1>
+        <p>
+          This lesson explains the basic building blocks of HTML and how
+          elements are used to structure a webpage
+        </p>
+        <div class="row g-1">
+          <!-- Video Section -->
+          <div class="video-wrapper col-md-6 col-sm-12">
+            <div class="ratio ratio-16x9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/vIoO52MdZFE?si=Qf82ZJj6clFLhMRq"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Notes Section -->
+          <div class="col-md-6 col-sm-12 notes bd-light shadow-sm p-4 rounded">
+            <h4>Lesson notes</h4>
+            <p>
+              HTML elements are the building blocks of a webpage. They usually
+              come in pairs: an opening tag and a closing tag.
+            </p>
+            <ul>
+              <li>Elements are defined by tags, e.g. <code>&lt;h1&gt;Hello&lt;/h1&gt;</code></li>
+              <li>Some elements are empty (self-closing), e.g. <code>&lt;br&gt;</code>  <code>&lt;img&gt;</code></li>
+              <li>Elements can be nested inside one another</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lesson-nav">
+          <a class="btn" href="./intro.html">Previous Lesson</a>
+          <a class="btn" href="./attributes.html">Next Lesson</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

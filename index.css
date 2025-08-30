@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: sticky;
+}
+.navbar {
+  background: linear-gradient(180deg, #1e1e2f, #2c3e50);
+}
+body {
+  background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8);
+
+}

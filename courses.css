@@ -1,0 +1,33 @@
+html body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.row{
+   gap: 1rem;
+}
+.card{
+    width: 200px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.javascript{
+    margin-bottom: 1rem;
+}
+button{
+    border: none;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 10px 24px;
+}
+button:hover{
+    background:  linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
