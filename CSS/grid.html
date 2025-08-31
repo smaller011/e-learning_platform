@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./intro.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center py-4 container"
+    >
+      <div class="card my-4 p-4">
+        <h1>Grid Layout</h1>
+        <p>
+          CSS Grid creates advanced layouts with rows and columns. It’s perfect
+          for building page sections and complete designs.
+        </p>
+        <div class="row g-1">
+          <!-- Video Section -->
+          <div class="video-wrapper col-md-6 col-sm-12">
+            <div class="ratio ratio-16x9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/9zBsdzdE4sM?si=kKZLqljrAc5T4IXN"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Notes Section -->
+          <div class="col-md-6 col-sm-12 notes bd-light shadow-sm p-4 rounded">
+            <h4>Lesson notes</h4>
+            <p>
+              CSS Grid is a powerful system for creating layouts with rows and
+              columns. It gives you precise control, making it easier to design
+              complex page structures like full dashboards or gallery layouts.
+              You can create two-dimensional layouts with precise rows and
+              columns for full page or complex sections.
+            </p>
+            <ul>
+              <li>
+                <code>grid-template-columns/rows</code>, <code>gap</code>
+              </li>
+              <li>
+                Named areas & <code>grid-area</code>
+              </li>
+              <li><code>fr</code> units, <code>auto-fit</code>/<code>auto-fill</code></li>
+            </ul>
+          </div>
+        </div>
+        <div class="lesson-nav">
+          <a class="btn" href="./flexbox.html">Previous Lesson</a>
+          <a class="btn" href="./responsive.html">Next Lesson</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

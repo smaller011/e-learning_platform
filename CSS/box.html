@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./intro.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center py-4 container"
+    >
+      <div class="card my-4 p-4">
+        <h1>Box Models</h1>
+        <p>
+          Every element is a box with content, padding, border, and margin.
+          Knowing this helps you control spacing and structure on a page.
+        </p>
+        <div class="row g-1">
+          <!-- Video Section -->
+          <div class="video-wrapper col-md-6 col-sm-12">
+            <div class="ratio ratio-16x9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/rIO5326FgPE?si=OONuKeO4aI5l5xnU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Notes Section -->
+          <div class="col-md-6 col-sm-12 notes bd-light shadow-sm p-4 rounded">
+            <h4>Lesson notes</h4>
+            <p>
+              Every HTML element is a rectangular box made up of content,
+              padding, border, and margin. Understanding the box model helps you
+              control spacing, alignment, and layout on the page.
+            </p>
+            <ul>
+              <li>Content, padding, border, margin</li>
+              <li><code>box-sizing: border-box</code></li>
+              <li><code>display</code> & <code>overflow</code> basics</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lesson-nav">
+          <a class="btn" href="./colors.html">Previous Lesson</a>
+          <a class="btn" href="./typography.html">Next Lesson</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

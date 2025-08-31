@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./intro.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center py-4 container"
+    >
+      <div class="card my-4 p-4">
+        <h1>Flexbox</h1>
+        <p>
+          Flexbox is a layout system that arranges items in rows or columns. It makes aligning, centering, and spacing elements easier.
+        </p>
+        <div class="row g-1">
+          <!-- Video Section -->
+          <div class="video-wrapper col-md-6 col-sm-12">
+            <div class="ratio ratio-16x9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/wsTv9y931o8?si=WMvNXiSUNIK1_fgU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Notes Section -->
+          <div class="col-md-6 col-sm-12 notes bd-light shadow-sm p-4 rounded">
+            <h4>Lesson notes</h4>
+            <p>
+              Lay out items in rows or columns and align them easily, perfect for navs, cards, and toolbars. Flexbox is a layout model that makes it easier to arrange items in rows or columns. It allows you to align, space, and distribute elements evenly without using float or complex positioning.
+            </p>
+            <ul>
+              <li>
+                <code>justify-content</code>, <code>align-items</code>, <code>gap</code>
+              </li>
+              <li>
+                <code>flex-wrap</code>, <code>order</code>, <code>flex</code> shorthand
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="lesson-nav">
+          <a class="btn" href="./typography.html">Previous Lesson</a>
+          <a class="btn" href="./grid.html">Next Lesson</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
