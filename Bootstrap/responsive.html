@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./intro.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-center align-items-center vh-100 container"
+    >
+      <div class="card p-4">
+        <h1>Bootstrap Responsive Design</h1>
+        <p>
+          Build mobile-first layouts that adapt to every screen using the grid,
+          breakpoints (xs–xxl), and responsive utilities like col-12 col-md-6,
+          d-none d-md-block, and img-fluid.
+        </p>
+        <div class="row g-1">
+          <!-- Video Section -->
+          <div class="video-wrapper col-md-6 col-sm-12">
+            <div class="ratio ratio-16x9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/dKVX22GR7zQ?si=DxXlUrDAvH-wWW8O"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Notes Section -->
+          <div class="col-md-6 col-sm-12 notes bd-light shadow-sm p-4 rounded">
+            <h4>Lesson notes</h4>
+            <p>
+              Bootstrap is mobile-first: combine the 12-column grid,
+              breakpoints, and utilities to make layouts that scale from phones
+              to desktops.
+            </p>
+            <!-- <h4>Key Points</h4> -->
+            <ul>
+              <li>Navbar: navbar-expand-md to collapse into a hamburger on small screens</li>
+              <li>Utilities: w-100 w-md-auto, spacing p-3 p-md-4, display d-none d-md-block</li>
+              <li>Media: img-fluid for images, .ratio for responsive iframes/videos</li>
+              <li>Breakpoints: xs, sm, md, lg, xl, xxl</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lesson-nav">
+          <a class="btn" href="./forms.html">Previous Lesson</a>
+          <a class="btn" href="./finish.html">Finish Course</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

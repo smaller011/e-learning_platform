@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congratulations!</title>
+  <link rel="stylesheet" href="../Bootstrap CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./finish.css">
+</head>
+<body class="d-flex flex-column justify-content-center align-items-center vh-100 bg-light text-center">
+
+  <!-- Trophy Image -->
+  <img 
+    class="mb-4" 
+    loading="lazy" 
+    style="height: 350px;" 
+    src="../images/08d4347d2a13eae24bfc8061ca802754.png" 
+    alt="Trophy"
+  >
+
+  <!-- Heading -->
+  <h1 class="display-4 text-success fw-bold">Congratulations! 🎉</h1>
+  <p class="lead text-dark mb-4">
+    You’ve successfully completed the <strong>Bootstrap Course</strong>! 🚀  
+  </p>
+
+  <!-- Banner for more courses -->
+  <div class="px-4 py-4 mb-4 text-white rounded-3 shadow coming-soon-banner">
+    <h2 class="fw-bold">✨ More Courses Coming Soon!</h2>
+    <p class="mb-0">
+      You’ve finished <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.  
+      But we’re just getting started—stay tuned for more!
+    </p>
+  </div>
+
+  <!-- Buttons -->
+  <div class="d-flex gap-3">
+    <a class="btn btn-primary px-4 fw-bold" href="../courses.html">Back to Courses</a>
+  </div>
+
+  <!-- Confetti Canvas -->
+  <div id="tsparticles"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script src="../Bootstrap js/bootstrap.min.js"></script>
+  <script src="./finish.js"></script>
+</body>
+</html>
