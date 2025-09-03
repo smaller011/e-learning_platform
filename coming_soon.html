@@ -5,9 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./Bootstrap CSS/bootstrap.min.css" />
+    <script src="./Bootstrap js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="coming_soon.css">
   </head>
-  <body class="bg-info">
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark px-3">
+          <a class="navbar-brand d-flex align-items-center" href="">
+            <img
+              src="./images/home-icon.png"
+              width="40"
+              height="40"
+              class="me-2"
+              alt=""
+            />
+            <span class="fw-bold">MySite</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./index.html"
+                >
+                  <img
+                    src="./images/home-icon.png"
+                    width="30"
+                    height="30"
+                    class="me-2"
+                    alt=""
+                  />
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./courses.html"
+                >
+                  <img
+                    src="./images/courses-icon.png"
+                    width="30"
+                    height="30"
+                    class="me-2"
+                    alt=""
+                  />
+                  Courses
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./coming_soon.html"
+                  ><img
+                    class="me-2"
+                    src="./images/hourglass-top.svg"
+                    width="30"
+                    height="30"
+                    alt=""
+                  />Coming Soon</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
     <div class="container">
       <header class="text-white text-center w-50 mx-auto pt-5">
         <h1>More Courses Coming Soon!</h1>
@@ -46,12 +116,16 @@
              <p>Intro to decentralized apps and smart contracts</p>
           </div>
           <div class="course-card">
-             <h4>Cybersecuroty</h4>
+             <h4>Cybersecurity</h4>
              <p>Protect web apps and understand online security basics</p>
           </div>
           <div class="course-card">
              <h4>Python Basics</h4>
              <p>Learn Python fundamentals for backend and AI projects</p>
+          </div>
+          <div class="course-card">
+             <h4>UI/UX Design</h4>
+             <p>Learn design principles, wireframing and prototyping</p>
           </div>
       </div>
     </div>

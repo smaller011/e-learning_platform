@@ -11,6 +11,25 @@
 .navbar {
   background: linear-gradient(180deg, #1e1e2f, #2c3e50);
 }
+.nav-item {
+  position: relative;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ff4d4d;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
 body {
   background: linear-gradient(to bottom, #6a11cb, #2575fc);
   background-size: contain;

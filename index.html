@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-learning Platform</title>
     <link rel="stylesheet" href="./Bootstrap CSS/bootstrap.min.css" />
+     <script src="./Bootstrap js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -21,20 +22,68 @@
             />
             <span class="fw-bold">MySite</span>
           </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./index.html"
+                >
+                  <img
+                    src="./images/home-icon.png"
+                    width="30"
+                    height="30"
+                    class="me-2"
+                    alt=""
+                  />
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./courses.html"
+                >
+                  <img
+                    src="./images/courses-icon.png"
+                    width="30"
+                    height="30"
+                    class="me-2"
+                    alt=""
+                  />
+                  Courses
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./coming_soon.html"
+                  ><img
+                    class="me-2"
+                    src="./images/hourglass-top.svg"
+                    width="30"
+                    height="30"
+                    alt=""
+                  />Coming Soon</a
+                >
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
       <section>
         <div class="">
-          <!-- <h1
-            class="text-light"
-            style="
-              @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');"
-          >
-            Learning made easier.....
-          </h1> -->
-          <div
-            class="container d-flex mt-5 "
-          >
+          <div class="container d-flex mt-5">
             <div class="row">
               <div class="col-12 col-md-8">
                 <div class="card p-3 shadow-sm mb-3 mx-auto w-70">
@@ -82,43 +131,16 @@
                     💡 Begin with HTML, style with CSS, speed up your design
                     using Bootstrap, then bring it all to life with JavaScript.
                   </p>
-                  <a
-                    class="btn mx-auto w-100"
-                    href="./courses.html"
+                  <a class="btn mx-auto w-100" href="./courses.html"
                     >Start learning now 🚀</a
                   >
                 </div>
               </div>
             </div>
-            <!-- <div class="card shadow-sm mt-4 mb-4">
-              <h3>✨ Learn at Your Own Pace</h3>
-              <p>
-                Pick a course below to get started. Each section includes videos
-                + notes to guide you step by step. Begin with
-                <strong>HTML</strong>, then move to <strong>CSS</strong>,
-                explore <strong>Bootstrap</strong>, and finally bring your pages
-                to life with <strong>JavaScript</strong>.
-              </p>
-              <a class="btn btn-outline-danger shadow mt-2 mx-auto w-50" href="./html.html"
-                >Learn HTML</a
-              >
-              <br />
-              <a
-                class="btn btn-outline-primary shadow mt-2 w-50 mx-auto"
-                href="./css.html"
-                >Learn CSS</a
-              >
-              <br />
-              <a class="btn btn-outline-info shadow mt-2 w-50 mx-auto " href="./bootstrap.html">Learn BOOTSTRAP</a> <br>
-              <a
-                class="btn btn-outline-warning shadow mt-2 w-50 mx-auto mb-3"
-                href="./javascript.html"
-                >Learn JAVASCRIPT</a
-              >
-            </div> -->
           </div>
         </div>
       </section>
+      
     </main>
   </body>
 </html>

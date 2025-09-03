@@ -7,6 +7,24 @@ body{
 /* .navbar-nav > li > a:hover{
     margin-bottom: 2px solid white;
 } */
+ .nav-item {
+  position: relative;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ff4d4d;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
 .container{
     width: 50%;
     padding-left: 2rem;
