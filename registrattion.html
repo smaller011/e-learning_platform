@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="./Bootstrap CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./registration.css">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card shadow-sm p-4">
+          <h2 class="mb-4 text-center">Create an Account</h2>
+          <form id="registrationForm">
+            <!-- Full Name -->
+            <div class="mb-3">
+              <label for="fullname" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullname" placeholder="Enter your full name">
+              <p class="errors fullname_err"></p>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              <p class="errors email_err"></p>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter a password">
+              <p class="errors password_err"></p>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="mb-3">
+              <label for="confirmPassword" class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+              <p class="errors confirmPassword_err"></p>
+            </div>
+
+            <!-- Terms -->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="terms">
+              <label class="form-check-label" for="terms">I agree to the Terms & Conditions</label>
+              <p class="errors terms_err"></p>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Register</button>
+
+            <!-- Login Link -->
+            <p class="text-center mt-3">Already have an account? <a href="login.html">Login</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./registration.js"></script>
+</body>
+</html>
